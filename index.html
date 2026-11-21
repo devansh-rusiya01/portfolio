@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Devansh Rusiya — Full-Stack Developer</title>
+  <meta name="description" content="Devansh Rusiya is a full-stack developer building fast, considered products for the web with React, Node.js and MongoDB." />
+  <meta name="theme-color" content="#08090A" />
+  <meta name="color-scheme" content="dark" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Devansh Rusiya — Full-Stack Developer" />
+  <meta property="og:description" content="Full-stack developer building fast, considered products for the web." />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Devansh Rusiya",
+    "jobTitle": "Full-Stack Developer",
+    "email": "mailto:devanshrusiya8@gmail.com",
+    "url": "https://github.com/devansh-rusiya01",
+    "sameAs": [
+      "https://github.com/devansh-rusiya01",
+      "https://www.linkedin.com/in/devansh-rusiya01"
+    ],
+    "knowsAbout": ["React", "Node.js", "MongoDB", "JavaScript", "TypeScript", "Tailwind CSS"]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top" aria-label="Devansh Rusiya — home">
+        <span class="brand-mark" aria-hidden="true">DR</span>
+        <span class="brand-text">devansh<span class="brand-dim">.rusiya</span></span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#work" data-nav="work">Work</a>
+        <a href="#about" data-nav="about">About</a>
+        <a href="#skills" data-nav="skills">Skills</a>
+        <a href="#contact" data-nav="contact">Contact</a>
+      </nav>
+
+      <a class="nav-cta" href="assets/devansh-rusiya-resume.pdf" target="_blank" rel="noopener">
+        Résumé
+        <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M3 9 9 3M9 3H4.2M9 3v4.8" /></svg>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="menu" id="menu" aria-hidden="true">
+    <nav class="menu-links" aria-label="Mobile">
+      <a href="#work" style="--i: 0"><span>01</span>Work</a>
+      <a href="#about" style="--i: 1"><span>02</span>About</a>
+      <a href="#skills" style="--i: 2"><span>03</span>Skills</a>
+      <a href="#contact" style="--i: 3"><span>05</span>Contact</a>
+    </nav>
+    <div class="menu-foot">
+      <a href="https://github.com/devansh-rusiya01" target="_blank" rel="noopener">GitHub ↗</a>
+      <a href="https://www.linkedin.com/in/devansh-rusiya01" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a href="mailto:devanshrusiya8@gmail.com">Email ↗</a>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- ── Hero ───────────────────────────────────────────── -->
+    <section class="hero" id="top">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-glow" aria-hidden="true"></div>
+
+      <div class="container hero-inner">
+        <p class="eyebrow reveal">
+          <span class="status-dot" aria-hidden="true"></span>
+          Full-stack developer · MERN
+        </p>
+
+        <h1 class="hero-title">
+          <span class="reveal" style="--d: 1">Devansh</span>
+          <span class="reveal" style="--d: 2">Rusiya<i aria-hidden="true">.</i></span>
+        </h1>
+
+        <p class="hero-sub reveal" style="--d: 3">
+          I build fast, considered products for the web — from the data model
+          to the last pixel.
+        </p>
+
+        <div class="hero-actions reveal" style="--d: 4">
+          <a class="btn btn-primary" href="#work">
+            View selected work
+            <svg viewBox="0 0 14 14" aria-hidden="true"><path d="M7 2v10M3 8l4 4 4-4" /></svg>
+          </a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+
+        <div class="hero-meta reveal" style="--d: 5">
+          <span>Based in India</span>
+          <span class="meta-sep" aria-hidden="true"></span>
+          <span>IST <time id="clock">--:--</time></span>
+          <span class="meta-sep" aria-hidden="true"></span>
+          <span>Open to full-time roles</span>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#work" aria-label="Scroll to work">
+        <span class="scroll-line" aria-hidden="true"></span>
+        <span>Scroll</span>
+      </a>
+    </section>
+
+    <!-- ── Marquee ────────────────────────────────────────── -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>React</span><b>✦</b><span>Node.js</span><b>✦</b><span>MongoDB</span><b>✦</b>
+        <span>Express</span><b>✦</b><span>Tailwind</span><b>✦</b><span>TypeScript</span><b>✦</b>
+        <span>REST APIs</span><b>✦</b><span>MySQL</span><b>✦</b><span>AWS</span><b>✦</b>
+        <span>React</span><b>✦</b><span>Node.js</span><b>✦</b><span>MongoDB</span><b>✦</b>
+        <span>Express</span><b>✦</b><span>Tailwind</span><b>✦</b><span>TypeScript</span><b>✦</b>
+        <span>REST APIs</span><b>✦</b><span>MySQL</span><b>✦</b><span>AWS</span><b>✦</b>
+      </div>
+    </div>
+
+    <!-- ── Work ───────────────────────────────────────────── -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="label"><span>01</span> Selected work</p>
+          <p class="section-note">Six projects, shipped and live.</p>
+        </div>
+
+        <ul class="work-list">
+          <li class="work-item reveal" style="--d: 0" data-hue="265">
+            <a class="work-link" href="https://study-notion-jet-three.vercel.app" target="_blank" rel="noopener">
+              <span class="work-index">01</span>
+              <div class="work-body">
+                <div class="work-heading">
+                  <h3>StudyNotion</h3>
+                  <span class="work-year">EdTech · 2025</span>
+                </div>
+                <p class="work-desc">
+                  A full-stack learning platform with course catalogues, role-based
+                  dashboards, payments and progress tracking. JWT auth, Cloudinary media
+                  handling and a Node API behind a React front end.
+                </p>
+                <ul class="tags">
+                  <li>React</li><li>Node.js</li><li>Express</li><li>MongoDB</li><li>Tailwind</li>
+                </ul>
+              </div>
+              <span class="work-arrow" aria-hidden="true">
+                <svg viewBox="0 0 16 16"><path d="M4 12 12 4M12 4H5.5M12 4v6.5" /></svg>
+              </span>
+            </a>
+          </li>
+
+          <li class="work-item reveal" style="--d: 1" data-hue="90">
+            <a class="work-link" href="https://new-job-hunt-1-o.onrender.com/" target="_blank" rel="noopener">
+              <span class="work-index">02</span>
+              <div class="work-body">
+                <div class="work-heading">
+                  <h3>Job Portal</h3>
+                  <span class="work-year">Full-stack · 2025</span>
+                </div>
+                <p class="work-desc">
+                  A hiring platform where candidates browse and apply to listings while
+                  recruiters post and manage them. Authenticated REST API, application
+                  tracking and a responsive dashboard.
+                </p>
+                <ul class="tags">
+                  <li>MERN</li><li>REST</li><li>JWT</li><li>MongoDB</li>
+                </ul>
+              </div>
+              <span class="work-arrow" aria-hidden="true">
+                <svg viewBox="0 0 16 16"><path d="M4 12 12 4M12 4H5.5M12 4v6.5" /></svg>
+              </span>
+            </a>
+          </li>
+
+          <li class="work-item reveal" style="--d: 2" data-hue="195">
+            <a class="work-link" href="https://devansh-blog-website.vercel.app" target="_blank" rel="noopener">
+              <span class="work-index">03</span>
+              <div class="work-body">
+                <div class="work-heading">
+                  <h3>Blog Website</h3>
+                  <span class="work-year">Frontend · 2024</span>
+                </div>
+                <p class="work-desc">
+                  A React and Tailwind reading experience with tag filters, pagination
+                  and API-driven content. Fast, keyboard-friendly and fully responsive
+                  across breakpoints.
+                </p>
+                <ul class="tags">
+                  <li>React</li><li>Tailwind</li><li>API</li><li>Pagination</li>
+                </ul>
+              </div>
+              <span class="work-arrow" aria-hidden="true">
+                <svg viewBox="0 0 16 16"><path d="M4 12 12 4M12 4H5.5M12 4v6.5" /></svg>
+              </span>
+            </a>
+          </li>
+
+          <li class="work-item reveal" style="--d: 3" data-hue="330">
+            <a class="work-link" href="https://dev-detective-project-pearl.vercel.app" target="_blank" rel="noopener">
+              <span class="work-index">04</span>
+              <div class="work-body">
+                <div class="work-heading">
+                  <h3>DevDetective</h3>
+                  <span class="work-year">Tool · 2024</span>
+                </div>
+                <p class="work-desc">
+                  A GitHub profile explorer. Search any username and get a clean,
+                  structured readout of repositories, followers and account age —
+                  no login, no clutter.
+                </p>
+                <ul class="tags">
+                  <li>JavaScript</li><li>GitHub API</li><li>CSS</li>
+                </ul>
+              </div>
+              <span class="work-arrow" aria-hidden="true">
+                <svg viewBox="0 0 16 16"><path d="M4 12 12 4M12 4H5.5M12 4v6.5" /></svg>
+              </span>
+            </a>
+          </li>
+
+          <li class="work-item reveal" style="--d: 4" data-hue="225">
+            <a class="work-link" href="https://razorpay-clone-three-steel.vercel.app" target="_blank" rel="noopener">
+              <span class="work-index">05</span>
+              <div class="work-body">
+                <div class="work-heading">
+                  <h3>Razorpay Clone</h3>
+                  <span class="work-year">Frontend · 2024</span>
+                </div>
+                <p class="work-desc">
+                  A front-end recreation of Razorpay's marketing site, built for layout
+                  precision — responsive typography, section rhythm and Tailwind utility
+                  discipline.
+                </p>
+                <ul class="tags">
+                  <li>HTML</li><li>Tailwind</li><li>Responsive</li>
+                </ul>
+              </div>
+              <span class="work-arrow" aria-hidden="true">
+                <svg viewBox="0 0 16 16"><path d="M4 12 12 4M12 4H5.5M12 4v6.5" /></svg>
+              </span>
+            </a>
+          </li>
+
+          <li class="work-item reveal" style="--d: 5" data-hue="45">
+            <a class="work-link" href="https://devansh-rusiya01.github.io/weatherAppProject/" target="_blank" rel="noopener">
+              <span class="work-index">06</span>
+              <div class="work-body">
+                <div class="work-heading">
+                  <h3>Weather App</h3>
+                  <span class="work-year">Tool · 2024</span>
+                </div>
+                <p class="work-desc">
+                  Real-time conditions for any city, with graceful error and loading
+                  states and a compact interface that stays readable on small screens.
+                </p>
+                <ul class="tags">
+                  <li>JavaScript</li><li>REST API</li><li>CSS</li>
+                </ul>
+              </div>
+              <span class="work-arrow" aria-hidden="true">
+                <svg viewBox="0 0 16 16"><path d="M4 12 12 4M12 4H5.5M12 4v6.5" /></svg>
+              </span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="work-more reveal">
+          <a class="link-arrow" href="https://github.com/devansh-rusiya01" target="_blank" rel="noopener">
+            More on GitHub
+            <svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 11 11 3M11 3H4.5M11 3v6.5" /></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="work-preview" id="workPreview" aria-hidden="true">
+        <div class="work-preview-inner">
+          <span class="work-preview-label">Preview</span>
+          <span class="work-preview-title"></span>
+          <span class="work-preview-hint">Live site ↗</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── About ──────────────────────────────────────────── -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-intro">
+          <p class="label reveal"><span>02</span> About</p>
+          <h2 class="section-title reveal" style="--d: 1">
+            Interfaces that<br />feel obvious<br />in hindsight.
+          </h2>
+        </div>
+
+        <div class="about-body">
+          <p class="reveal">
+            I'm a computer science engineer focused on full-stack product work. Most of
+            what I build lives in the JavaScript ecosystem — React on the front,
+            Node and Express behind it, MongoDB or MySQL underneath.
+          </p>
+          <p class="reveal" style="--d: 1">
+            I care about the parts most people skip: sensible data models, predictable
+            state, and interfaces that load instantly without needing a manual. I've
+            shipped an EdTech platform, a hiring portal, and a handful of smaller tools
+            that do one thing well.
+          </p>
+          <p class="reveal" style="--d: 2">
+            Away from the keyboard I'm usually working through data structures and
+            algorithms, reading about design systems, or pulling apart developer tooling
+            to see how it's made.
+          </p>
+
+          <dl class="stats reveal" style="--d: 3">
+            <div class="stat">
+              <dt>Problems solved</dt>
+              <dd>350<span>+</span></dd>
+            </div>
+            <div class="stat">
+              <dt>CGPA</dt>
+              <dd>7.13</dd>
+            </div>
+            <div class="stat">
+              <dt>Projects shipped</dt>
+              <dd>6<span>+</span></dd>
+            </div>
+            <div class="stat">
+              <dt>Certifications</dt>
+              <dd>03</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Skills ─────────────────────────────────────────── -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="label"><span>03</span> Capabilities</p>
+          <p class="section-note">The stack I reach for.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-group reveal">
+            <h3>Languages</h3>
+            <ul><li>JavaScript</li><li>Python</li><li>C++</li><li>C</li><li>Java</li></ul>
+          </div>
+          <div class="skill-group reveal" style="--d: 1">
+            <h3>Frontend</h3>
+            <ul><li>React</li><li>Redux Toolkit</li><li>Tailwind CSS</li><li>HTML</li><li>CSS</li></ul>
+          </div>
+          <div class="skill-group reveal" style="--d: 2">
+            <h3>Backend</h3>
+            <ul><li>Node.js</li><li>Express</li><li>REST APIs</li><li>JWT</li></ul>
+          </div>
+          <div class="skill-group reveal" style="--d: 3">
+            <h3>Data</h3>
+            <ul><li>MongoDB</li><li>MySQL</li><li>Relational design</li></ul>
+          </div>
+          <div class="skill-group reveal" style="--d: 4">
+            <h3>Tooling</h3>
+            <ul><li>Git</li><li>GitHub</li><li>Postman</li><li>Figma</li><li>Linux</li></ul>
+          </div>
+          <div class="skill-group reveal" style="--d: 5">
+            <h3>Cloud</h3>
+            <ul><li>AWS</li><li>GCP</li><li>Vercel</li><li>Netlify</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Recognition ────────────────────────────────────── -->
+    <section class="section" id="recognition">
+      <div class="container about-grid">
+        <div class="about-intro">
+          <p class="label reveal"><span>04</span> Recognition</p>
+          <h2 class="section-title reveal" style="--d: 1">Certified, and<br />still practising.</h2>
+        </div>
+
+        <div class="about-body">
+          <ul class="list-rows">
+            <li class="reveal">
+              <div>
+                <p class="row-title">Data Structures &amp; Algorithms Master Course</p>
+                <p class="row-meta">CodeHelp · 2024</p>
+              </div>
+              <span class="row-badge">Certificate</span>
+            </li>
+            <li class="reveal" style="--d: 1">
+              <div>
+                <p class="row-title">Web Development Bootcamp — MERN Stack</p>
+                <p class="row-meta">CodeHelp · 2024</p>
+              </div>
+              <span class="row-badge">Certificate</span>
+            </li>
+            <li class="reveal" style="--d: 2">
+              <div>
+                <p class="row-title">Google Cloud Arcade Program</p>
+                <p class="row-meta">Google Cloud · 2024</p>
+              </div>
+              <span class="row-badge">Program</span>
+            </li>
+            <li class="reveal" style="--d: 3">
+              <div>
+                <p class="row-title">350+ problems solved on LeetCode</p>
+                <p class="row-meta">Max rating 1464</p>
+              </div>
+              <a class="row-link" href="https://leetcode.com/u/devansh-rusiya01/" target="_blank" rel="noopener">Profile ↗</a>
+            </li>
+            <li class="reveal" style="--d: 4">
+              <div>
+                <p class="row-title">350+ problems solved on GeeksforGeeks</p>
+                <p class="row-meta">Data structures &amp; algorithms</p>
+              </div>
+              <span class="row-badge">Practice</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Contact ────────────────────────────────────────── -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <p class="label reveal"><span>05</span> Contact</p>
+
+        <h2 class="contact-title reveal" style="--d: 1">
+          Let's build<br /><em>something.</em>
+        </h2>
+
+        <p class="contact-sub reveal" style="--d: 2">
+          I'm open to full-time roles and interesting freelance work.
+          Email is the fastest way to reach me.
+        </p>
+
+        <div class="contact-email reveal" style="--d: 3">
+          <a href="mailto:devanshrusiya8@gmail.com" class="email-link">devanshrusiya8@gmail.com</a>
+          <button class="copy-btn" id="copyEmail" type="button" data-email="devanshrusiya8@gmail.com">
+            <svg viewBox="0 0 16 16" aria-hidden="true"><rect x="5.5" y="5.5" width="8" height="8" rx="1.5" /><path d="M10.5 5.5v-2a1.5 1.5 0 0 0-1.5-1.5H4a1.5 1.5 0 0 0-1.5 1.5v5A1.5 1.5 0 0 0 4 10h1.5" /></svg>
+            <span>Copy</span>
+          </button>
+        </div>
+
+        <ul class="socials reveal" style="--d: 4">
+          <li><a href="https://github.com/devansh-rusiya01" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a></li>
+          <li><a href="https://www.linkedin.com/in/devansh-rusiya01" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a></li>
+          <li><a href="https://leetcode.com/u/devansh-rusiya01/" target="_blank" rel="noopener">LeetCode <span aria-hidden="true">↗</span></a></li>
+          <li><a href="assets/devansh-rusiya-resume.pdf" target="_blank" rel="noopener">Résumé <span aria-hidden="true">↗</span></a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Devansh Rusiya</p>
+      <p class="footer-mid">Local time <time id="clockFoot">--:--</time> IST</p>
+      <p>Built with HTML, CSS &amp; JS</p>
+    </div>
+  </footer>
+
+  <script src="assets/main.js" defer></script>
+</body>
+</html>
